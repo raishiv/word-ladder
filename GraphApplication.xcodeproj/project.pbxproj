@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5824B4ED1A364F98009C9B9E /* queue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5824B4EC1A364F98009C9B9E /* queue.cpp */; };
 		58E013DD1A2AFFDE005D3130 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58E013DC1A2AFFDE005D3130 /* main.cpp */; };
+		58E013E81A2BED4D005D3130 /* Graphs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58E013E61A2BED4D005D3130 /* Graphs.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +25,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5824B4EC1A364F98009C9B9E /* queue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = queue.cpp; sourceTree = "<group>"; };
+		5824B4EE1A364FAC009C9B9E /* queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = queue.h; sourceTree = "<group>"; };
 		58E013D91A2AFFDE005D3130 /* GraphApplication */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GraphApplication; sourceTree = BUILT_PRODUCTS_DIR; };
 		58E013DC1A2AFFDE005D3130 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		58E013E61A2BED4D005D3130 /* Graphs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Graphs.cpp; sourceTree = "<group>"; };
+		58E013E71A2BED4D005D3130 /* Graphs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Graphs.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				58E013DC1A2AFFDE005D3130 /* main.cpp */,
+				5824B4EE1A364FAC009C9B9E /* queue.h */,
+				5824B4EC1A364F98009C9B9E /* queue.cpp */,
+				58E013E61A2BED4D005D3130 /* Graphs.cpp */,
+				58E013E71A2BED4D005D3130 /* Graphs.h */,
 			);
 			path = GraphApplication;
 			sourceTree = "<group>";
@@ -119,6 +129,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				58E013DD1A2AFFDE005D3130 /* main.cpp in Sources */,
+				58E013E81A2BED4D005D3130 /* Graphs.cpp in Sources */,
+				5824B4ED1A364F98009C9B9E /* queue.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +244,7 @@
 				58E013E21A2AFFDE005D3130 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
